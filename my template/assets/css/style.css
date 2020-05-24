@@ -1,7 +1,7 @@
 
 
 
-
+/**Common for all pages*/
 
 
 html, body, div, span, applet, object, iframe,
@@ -21,6 +21,8 @@ time, mark, audio, video {
   padding: 0; }
 
 
+
+
 header .container{
   background-image: url(../images/1.jpg);
     background-size: cover;
@@ -32,6 +34,10 @@ header .container{
     background-color: #ffffff;
 }
 
+
+
+/*1. HOME PAGE*/
+/*New Reads*/
 @media (min-width: 768px){
   .col-sm-6 {
       width: 50%;
@@ -110,3 +116,32 @@ header .container{
   right:0;
 }
 
+
+
+
+
+
+
+
+/*Humans of GCT page*/
+
+
+
+/*Campus News GCT*/
+
+.card-decks .news {
+  border: none;
+  margin-bottom: 3rem;
+}
+
+.card-decks .news .card-body {
+
+  padding: 0;
+}
+
+
+
+.card-decks .news .card-body .report-details{
+
+  font-size: 0.8rem;
+}
