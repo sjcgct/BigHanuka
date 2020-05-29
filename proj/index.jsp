@@ -23,12 +23,15 @@
 
 <body>
 
-    <div id="header"></div>
+    
+    
+     <%@ include file="header.jsp" %>
+
+     <%@ include file="navbar.jsp" %>
+
     
     <!--Main Navigation menu-->
-    <div id="navbar"></div>
-
-
+    
 
     <!--Recently Published-->
     <div id="recent-updates" class="container mt-5">
@@ -164,8 +167,8 @@
         </div>
       </div>
 
-        <!--Footer-->
-      <div id="footer"></div>
+
+      <%@ include file="footer.jsp" %>
     
 
     
@@ -173,14 +176,6 @@
     
 
     <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-    <script> 
-          $(function(){
-            $("#header").load("header.html"); 
-            $("#navbar").load("navbar.html");
-            $("#footer").load("footer.html");
-            
-          });
-    </script>
     <script src="assets/js/owl.carousel.min.js"></script>
     <script src="assets/js/jquer.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
