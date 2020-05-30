@@ -37,13 +37,13 @@
     <!--tab bar-->
         <div id="year-tab">
             <ul class="nav nav-tabs">
-                <li class="nav-item">
+                <li class="nav-item" onclick="y2019_2020()" id="2019_2020">
                     <a class="nav-link active" href="#" data-model="1920">2019-20</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item" onclick="y2018_2019()" id="2018_2019">
                     <a class="nav-link" href="#" data-model="1819">2018-19</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item" onclick="y2017_2018()" id="2017_2018">
                     <a class="nav-link" href="#" data-model="1718">2017-18</a>
                 </li>
                 <li class="nav-item">
@@ -61,288 +61,12 @@
             </ul>
         </div>
 
+
+
+
         <div class="wrapper">
-        <!--2019-20-->
-            <div class="1920">
-
-                <div class="mt-3 mx-2 col-sm-12">
-                    <img class="img-fluid" src="assets/images/test_featured.jpg">
-                </div>
-
-                <div class="row px-4">
-                    <div class="mt-3 col-sm-12 col-md-12 col-lg-12">
-                        <h4 class="mt-">Faculty Advisor</h4>
-                        <p>Dr. AJ Burr PhD </p>
-
-                        <h4 class="mt-3">Chief Editors</h5>
-                            <ol class="mt-1">
-                                <li class="ml-3">Aj Burr BE</li>
-                                <li class="ml-3">Aj Burr BE</li>
-                            </ol>
-                    </div>
-                </div>
-
-                <div class="row px-4">
-
-                    <div class="mt-3 px-3 col-sm-12 col-md-6">
-                        <h5 class="mt-2">Team Content</h5>
-                        <ol class="mt-1">
-                            <li class="ml-3">Aj Burr BE</li>
-                            <li class="ml-3">Aj Burr BE</li>
-                            <li class="ml-3">Aj Burr BE</li>
-                            <li class="ml-3">Aj Burr BE</li>
-                            <li class="ml-3">Aj Burr BE</li>
-                        </ol>
-                    </div>
-
-                    <div class="mt-3 px-3 col-sm-12 col-md-6">
-                        <h5 class="mt-2">Team Reporting</h5>
-                        <ol class="mt-1">
-                            <li class="ml-3">Aj Burr BE</li>
-                            <li class="ml-3">Aj Burr BE</li>
-                            <li class="ml-3">Aj Burr BE</li>
-                            <li class="ml-3">Aj Burr BE</li>
-                            <li class="ml-3">Aj Burr BE</li>
-
-                        </ol>
-                    </div>
-
-                    <div class="mt-3 px-3 col-sm-12 col-md-6">
-                        <h5 class="mt-2">Team Photography</h5>
-                        <ol class="mt-1">
-                            <li class="ml-3">Aj Burr BE</li>
-                            <li class="ml-3">Aj Burr BE</li>
-                            <li class="ml-3">Aj Burr BE</li>
-                            <li class="ml-3">Aj Burr BE</li>
-                            <li class="ml-3">Aj Burr BE</li>
-                        </ol>
-                    </div>
-
-                    <div class="mt-3 px-3 col-sm-12 col-md-6">
-                        <h5 class="mt-2">Team Cartooning</h5>
-                        <ol class="mt-1">
-                            <li class="ml-3">Aj Burr BE</li>
-                            <li class="ml-3">Aj Burr BE</li>
-                            <li class="ml-3">Aj Burr BE</li>
-                            <li class="ml-3">Aj Burr BE</li>
-                            <li class="ml-3">Aj Burr BE</li>
-
-                        </ol>
-                    </div>
-
-                    <div class="mt-3 px-3 col-sm-12 col-md-6">
-                        <h5 class="mt-2">Team Design</h5>
-                        <ol class="mt-1">
-                            <li class="ml-3">Aj Burr BE</li>
-                            <li class="ml-3">Aj Burr BE</li>
-                            <li class="ml-3">Aj Burr BE</li>
-                            <li class="ml-3">Aj Burr BE</li>
-                            <li class="ml-3">Aj Burr BE</li>
-                        </ol>
-                    </div>
-
-                    <div class="mt-3 px-3 col-sm-12 col-md-6">
-                        <h5 class="mt-2">Team Web Operations</h5>
-                        <ol class="mt-1">
-                            <li class="ml-3">Aj Burr BE</li>
-                            <li class="ml-3">Aj Burr BE</li>
-                            <li class="ml-3">Aj Burr BE</li>
-                            <li class="ml-3">Aj Burr BE</li>
-                            <li class="ml-3">Aj Burr BE</li>
-
-                        </ol>
-                    </div>
-                </div>
-            </div>
-
-<!--2018-19-->
-
-            <div class="1819">
-
-                <div class="mt-3 mx-2 col-sm-12">
-                    <img class="img-fluid" src="assets/images/2.jpg">
-                </div>
-
-                <div class="row px-4">
-                    <div class="mt-3 col-sm-12 col-md-12 col-lg-12">
-                        <h4 class="mt-">Faculty Advisor</h4>
-                        <p>Dr.Opilla Sis PhD </p>
-
-                        <h4 class="mt-3">Chief Editors</h5>
-                            <ol class="mt-1">
-                                <li class="ml-3">Aj Burr BE</li>
-                                <li class="ml-3">Aj Burr BE</li>
-                            </ol>
-                    </div>
-                </div>
-
-                <div class="row px-4">
-
-                    <div class="mt-3 px-3 col-sm-12 col-md-6">
-                        <h5 class="mt-2">Team Content</h5>
-                        <ol class="mt-1">
-                            <li class="ml-3">Aj Burr BE</li>
-                            <li class="ml-3">Aj Burr BE</li>
-                            <li class="ml-3">Aj Burr BE</li>
-                            <li class="ml-3">Aj Burr BE</li>
-                            <li class="ml-3">Aj Burr BE</li>
-                        </ol>
-                    </div>
-
-                    <div class="mt-3 px-3 col-sm-12 col-md-6">
-                        <h5 class="mt-2">Team Reporting</h5>
-                        <ol class="mt-1">
-                            <li class="ml-3">Aj Burr BE</li>
-                            <li class="ml-3">Aj Burr BE</li>
-                            <li class="ml-3">Aj Burr BE</li>
-                            <li class="ml-3">Aj Burr BE</li>
-                            <li class="ml-3">Aj Burr BE</li>
-
-                        </ol>
-                    </div>
-
-                    <div class="mt-3 px-3 col-sm-12 col-md-6">
-                        <h5 class="mt-2">Team Photography</h5>
-                        <ol class="mt-1">
-                            <li class="ml-3">Aj Burr BE</li>
-                            <li class="ml-3">Aj Burr BE</li>
-                            <li class="ml-3">Aj Burr BE</li>
-                            <li class="ml-3">Aj Burr BE</li>
-                            <li class="ml-3">Aj Burr BE</li>
-                        </ol>
-                    </div>
-
-                    <div class="mt-3 px-3 col-sm-12 col-md-6">
-                        <h5 class="mt-2">Team Cartooning</h5>
-                        <ol class="mt-1">
-                            <li class="ml-3">Aj Burr BE</li>
-                            <li class="ml-3">Aj Burr BE</li>
-                            <li class="ml-3">Aj Burr BE</li>
-                            <li class="ml-3">Aj Burr BE</li>
-                            <li class="ml-3">Aj Burr BE</li>
-
-                        </ol>
-                    </div>
-
-                    <div class="mt-3 px-3 col-sm-12 col-md-6">
-                        <h5 class="mt-2">Team Design</h5>
-                        <ol class="mt-1">
-                            <li class="ml-3">Aj Burr BE</li>
-                            <li class="ml-3">Aj Burr BE</li>
-                            <li class="ml-3">Aj Burr BE</li>
-                            <li class="ml-3">Aj Burr BE</li>
-                            <li class="ml-3">Aj Burr BE</li>
-                        </ol>
-                    </div>
-
-                    <div class="mt-3 px-3 col-sm-12 col-md-6">
-                        <h5 class="mt-2">Team Web Operations</h5>
-                        <ol class="mt-1">
-                            <li class="ml-3">Aj Burr BE</li>
-                            <li class="ml-3">Aj Burr BE</li>
-                            <li class="ml-3">Aj Burr BE</li>
-                            <li class="ml-3">Aj Burr BE</li>
-                            <li class="ml-3">Aj Burr BE</li>
-
-                        </ol>
-                    </div>
-                </div>
-            </div>
-
-<!--2017-18-->
-            <div class="1718">
-
-                <div class="mt-3 mx-2 col-sm-12">
-                    <img class="img-fluid" src="assets/images/test_featured.jpg">
-                </div>
-
-                <div class="row px-4">
-                    <div class="mt-3 col-sm-12 col-md-12 col-lg-12">
-                        <h4 class="mt-">Faculty Advisor</h4>
-                        <p>Dr.Gayu Ka PhD </p>
-
-                        <h4 class="mt-3">Chief Editors</h5>
-                            <ol class="mt-1">
-                                <li class="ml-3">Aj Burr BE</li>
-                                <li class="ml-3">Aj Burr BE</li>
-                            </ol>
-                    </div>
-                </div>
-
-                <div class="row px-4">
-
-                    <div class="mt-3 px-3 col-sm-12 col-md-6">
-                        <h5 class="mt-2">Team Content</h5>
-                        <ol class="mt-1">
-                            <li class="ml-3">Aj Burr BE</li>
-                            <li class="ml-3">Aj Burr BE</li>
-                            <li class="ml-3">Aj Burr BE</li>
-                            <li class="ml-3">Aj Burr BE</li>
-                            <li class="ml-3">Aj Burr BE</li>
-                        </ol>
-                    </div>
-
-                    <div class="mt-3 px-3 col-sm-12 col-md-6">
-                        <h5 class="mt-2">Team Reporting</h5>
-                        <ol class="mt-1">
-                            <li class="ml-3">Aj Burr BE</li>
-                            <li class="ml-3">Aj Burr BE</li>
-                            <li class="ml-3">Aj Burr BE</li>
-                            <li class="ml-3">Aj Burr BE</li>
-                            <li class="ml-3">Aj Burr BE</li>
-
-                        </ol>
-                    </div>
-
-                    <div class="mt-3 px-3 col-sm-12 col-md-6">
-                        <h5 class="mt-2">Team Photography</h5>
-                        <ol class="mt-1">
-                            <li class="ml-3">Aj Burr BE</li>
-                            <li class="ml-3">Aj Burr BE</li>
-                            <li class="ml-3">Aj Burr BE</li>
-                            <li class="ml-3">Aj Burr BE</li>
-                            <li class="ml-3">Aj Burr BE</li>
-                        </ol>
-                    </div>
-
-                    <div class="mt-3 px-3 col-sm-12 col-md-6">
-                        <h5 class="mt-2">Team Cartooning</h5>
-                        <ol class="mt-1">
-                            <li class="ml-3">Aj Burr BE</li>
-                            <li class="ml-3">Aj Burr BE</li>
-                            <li class="ml-3">Aj Burr BE</li>
-                            <li class="ml-3">Aj Burr BE</li>
-                            <li class="ml-3">Aj Burr BE</li>
-
-                        </ol>
-                    </div>
-
-                    <div class="mt-3 px-3 col-sm-12 col-md-6">
-                        <h5 class="mt-2">Team Design</h5>
-                        <ol class="mt-1">
-                            <li class="ml-3">Aj Burr BE</li>
-                            <li class="ml-3">Aj Burr BE</li>
-                            <li class="ml-3">Aj Burr BE</li>
-                            <li class="ml-3">Aj Burr BE</li>
-                            <li class="ml-3">Aj Burr BE</li>
-                        </ol>
-                    </div>
-
-                    <div class="mt-3 px-3 col-sm-12 col-md-6">
-                        <h5 class="mt-2">Team Web Operations</h5>
-                        <ol class="mt-1">
-                            <li class="ml-3">Aj Burr BE</li>
-                            <li class="ml-3">Aj Burr BE</li>
-                            <li class="ml-3">Aj Burr BE</li>
-                            <li class="ml-3">Aj Burr BE</li>
-                            <li class="ml-3">Aj Burr BE</li>
-
-                        </ol>
-                    </div>
-                </div>
-            </div>
+        <div id="tab"></div>
         </div>
-
 
     </div>
 
@@ -351,12 +75,35 @@
     <%@ include file="footer.jsp" %>
 
 
+    <script>
+         window.onload = function() {
+            $('#tab').load('assets/htmls/2019_2020.html');
+         };
+         function y2018_2019()
+         {
+          $('#tab').load('assets/htmls/2018_2019.html');
+          $(".nav-link").removeClass("active");
+          $('#2018_2019').addClass('active');
+         }
+         function y2017_2018()
+         {
+          $('#tab').load('assets/htmls/2017_2018.html');
+          $(".nav-link").removeClass("active");
+          $('#2017_2018').addClass('active');
+         }
+         function y2019_2020()
+         {
+          $('#tab').load('assets/htmls/2019_2020.html');
+          $(".nav-link").removeClass("active");
+          $('#2019_2020').addClass('active');
+         }
 
+      </script>
 
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"
-        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
     </script>
     
 
