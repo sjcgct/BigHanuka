@@ -1,7 +1,7 @@
 <header>
      
-    <div class="container">
-      <a href="index.html"><h1 class="text-center">Student Journalist Council - GCT</h1></a>
+    <div class="container px-0">
+      <!--<a href="index.html"><h1 class="text-center">Student Journalist Council - GCT</h1></a>
       <br>
 
   
@@ -27,6 +27,7 @@
               <li class="nav-item">
                   <a class="nav-link" href="https://www.youtube.com/ApertureBroadcastingChannelGCT"><i class="fab fa-youtube"></i></a>
               </li>              
-           </nav>
+           </nav>-->
+        <img class="img-fluid" src="assets/images/banner.jpeg">    
     </div>     
 </header>

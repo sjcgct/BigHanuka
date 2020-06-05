@@ -87,28 +87,18 @@ video {
 }
 
 
-body{
-  background-color: #fffbfa;
-  background-image: url("https://www.transparenttextures.com/patterns/clean-textile.png");
+body {
+  background-image: url("../images/beige-paper.png");
+  background-color: #FFC8C8;
   /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 
 
 header .container {
-  background-image: url(../images/1.jpg);
-  background-size: cover;
-  background-position-x: 100%;
   height: auto;
 }
 
-#mainnav {
-  background-color: #ffffff;
-}
 
-
-
-/*1. HOME PAGE*/
-/*New Reads*/
 @media (min-width: 768px) {
   .col-sm-6 {
     width: 50%;
@@ -133,12 +123,15 @@ header .container {
   }
 }
 
+
+
+
 /*#recent-updates .row:last-of-type .article-col:first-of-type .article {
     overflow: hidden;
     border-radius: 0px 0px 0px 10px;
   }*/
 
-#recent-updates .row .article {
+/*#recent-updates .row .article {
   overflow: hidden;
   border-radius: 0px 0px 0px 10px;
 }
@@ -186,20 +179,154 @@ header .container {
   transform: translate(-50%, 50%);
   left: 50%;
   bottom: 50%;
-}
-
-
+}*/
 
 /**Humans of GCT Card and Campus News Slider in HomePage**/
-
-.owl-dots {
-  display: none;
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background: #2caae1;
 }
 
-.owl-nav {
+.owl-carousel .nav-btn {
+  height: 47px;
   position: absolute;
-  top: -2.5rem;
-  right: 0;
+  width: 26px;
+  cursor: pointer;
+  top: 20% !important;
+}
+
+@media screen and (min-width: 992px) {
+  .owl-carousel .nav-btn {
+    height: 47px;
+    position: absolute;
+    width: 26px;
+    cursor: pointer;
+    top: 35% !important;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .owl-carousel .nav-btn {
+    height: 47px;
+    position: absolute;
+    width: 26px;
+    cursor: pointer;
+    top: 25% !important;
+  }
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+  .owl-carousel .nav-btn {
+    height: 47px;
+    position: absolute;
+    width: 26px;
+    cursor: pointer;
+    top: 35% !important;
+  }
+}
+
+
+.owl-carousel .owl-prev.disabled,
+.owl-carousel .owl-next.disabled {
+  pointer-events: none;
+  opacity: 0.2;
+}
+
+.owl-carousel .prev-slide {
+  background: url(nav-icon.png) no-repeat scroll 0 0;
+  left: -10px;
+}
+
+.owl-carousel .next-slide {
+  background: url(nav-icon.png) no-repeat scroll -24px 0px;
+  right: -10px;
+}
+
+.owl-carousel .prev-slide:hover {
+  background-position: 0px -53px;
+}
+
+.owl-carousel .next-slide:hover {
+  background-position: -24px -53px;
+}
+
+.item {
+  position: relative;
+  background: black;
+}
+
+.campus-img-text {
+  bottom: 0;
+  left: 0;
+  color: white;
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+  position: absolute;
+}
+
+.campus-img-overlay {
+  opacity: 0.6;
+}
+
+
+
+.campus-img-text .date-info {
+  font-size: 0.8rem;
+  padding-top: auto;
+  color: #FFC8C8;
+}
+
+
+@media screen and (max-width:990px){
+.hog-img-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 60%);
+  color: white;
+  text-align: center;
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+  opacity: 1;
+}
+.hog-img-overlay {
+  opacity: 0.6;
+}
+}
+
+@media screen and (min-width: 992px) {
+  .hog-img-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    opacity: 0;
+  }
+
+  .item:hover .hog-img-overlay {
+    opacity: 0.6;
+    transition-duration: 0.3s;
+  }
+
+  .item:hover .hog-img-text {
+    opacity: 1;
+    transition-duration: 0.3s;
+  }
+
+}
+
+.hog-img-text .date-info {
+  font-size: 0.8rem;
+  padding-top: auto;
+  color: #FFC8C8;
 }
 
 
@@ -208,6 +335,12 @@ header .container {
 
 
 
+
+.hog-img-text .date-info {
+
+  padding-top: auto;
+  color: #FFC8C8;
+}
 
 /*Humans of GCT page*/
 
@@ -219,13 +352,7 @@ header .container {
 
 }
 
-.hog-card .card-body {
-  background-color: rgb(72, 130, 134);
-}
 
-.hog-card .card-text {
-  color: #373E40;
-}
 
 /*Campus News GCT*/
 
@@ -257,3 +384,11 @@ header .container {
 
 /* Team */
 
+
+
+/*Footer*/
+
+footer {
+  background-color: #444F5A;
+  color: #FAEFEE;
+}

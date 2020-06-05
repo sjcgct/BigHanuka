@@ -20,408 +20,412 @@
   <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
 
   <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/navigation.css">
   <link rel="icon" href="assets/images/icon.png">
 
 
   <title>Student Journalist Council - GCT</title>
 </head>
 
-<body style="background-color: rgb(183, 213, 212);">
+<body>
 
   <%@ include file="header.jsp" %>
+  <div class="container px-0 bg-white">
+    <%@ include file="navbar.jsp" %>
 
-  <%@ include file="navbar.jsp" %>
+    <div class="container">
 
-
-  <div class="container mt-5">
-    <div class="container-title">Humans of GCT</div>
-  </div>
-
-
-
-  <div id="hogpagination" class="container">
-    <div class="row">
-
-      <div class="col-sm-12 col-md-4">
-        <div class="card hog-card mt-4">
-          <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
-          <div class="card-body">
-            <h4 class="card-text">Ajboi is broke af 1</h4>
-          </div>
-        </div>
+      <div class="container-title">
+        Humans of GCT
       </div>
 
-      <div class="col-sm-12 col-md-4">
-        <div class="card hog-card mt-4">
-          <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
-          <div class="card-body">
-            <h4 class="card-text">Ajboi is broke af 1</h4>
-          </div>
-        </div>
-      </div>
 
-      <div class="col-sm-12 col-md-4">
-        <div class="card hog-card mt-4">
-          <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
-          <div class="card-body">
-            <h4 class="card-text">Ajboi is broke af 1</h4>
-          </div>
-        </div>
-      </div>
 
-      <div class="col-sm-12 col-md-4">
-        <div class="card hog-card mt-4">
-          <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
-          <div class="card-body">
-            <h4 class="card-text">Ajboi is broke af 1</h4>
-          </div>
-        </div>
-      </div>
 
-      <div class="col-sm-12 col-md-4">
-        <div class="card hog-card mt-4">
-          <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
-          <div class="card-body">
-            <h4 class="card-text">Ajboi is broke af 1</h4>
-          </div>
-        </div>
-      </div>
+      <div id="hogpagination">
+        <div class="row">
 
-      <div class="col-sm-12 col-md-4">
-        <div class="card hog-card mt-4">
-          <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
-          <div class="card-body">
-            <h4 class="card-text">Ajboi is broke af 1</h4>
+          <div class="col-sm-12 col-md-4">
+            <div class="card hog-card mt-4">
+              <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
+              <div class="card-body">
+                <h4 class="card-text">Ajboi is broke af 1</h4>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
 
-      <div class="col-sm-12 col-md-4">
-        <div class="card hog-card mt-4">
-          <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
-          <div class="card-body">
-            <h4 class="card-text">Ajboi is broke af 1</h4>
+          <div class="col-sm-12 col-md-4">
+            <div class="card hog-card mt-4">
+              <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
+              <div class="card-body">
+                <h4 class="card-text">Ajboi is broke af 1</h4>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
 
-      <div class="col-sm-12 col-md-4">
-        <div class="card hog-card mt-4">
-          <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
-          <div class="card-body">
-            <h4 class="card-text">Ajboi is broke af 1</h4>
+          <div class="col-sm-12 col-md-4">
+            <div class="card hog-card mt-4">
+              <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
+              <div class="card-body">
+                <h4 class="card-text">Ajboi is broke af 1</h4>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
 
-      <div class="col-sm-12 col-md-4">
-        <div class="card hog-card mt-4">
-          <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
-          <div class="card-body">
-            <h4 class="card-text">Ajboi is broke af 1</h4>
+          <div class="col-sm-12 col-md-4">
+            <div class="card hog-card mt-4">
+              <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
+              <div class="card-body">
+                <h4 class="card-text">Ajboi is broke af 1</h4>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
 
-      <div class="col-sm-12 col-md-4">
-        <div class="card hog-card mt-4">
-          <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
-          <div class="card-body">
-            <h4 class="card-text">Ajboi is broke af 1</h4>
+          <div class="col-sm-12 col-md-4">
+            <div class="card hog-card mt-4">
+              <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
+              <div class="card-body">
+                <h4 class="card-text">Ajboi is broke af 1</h4>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
 
-      <div class="col-sm-12 col-md-4">
-        <div class="card hog-card mt-4">
-          <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
-          <div class="card-body">
-            <h4 class="card-text">Ajboi is broke af 1</h4>
+          <div class="col-sm-12 col-md-4">
+            <div class="card hog-card mt-4">
+              <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
+              <div class="card-body">
+                <h4 class="card-text">Ajboi is broke af 1</h4>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
 
-      <div class="col-sm-12 col-md-4">
-        <div class="card hog-card mt-4">
-          <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
-          <div class="card-body">
-            <h4 class="card-text">Ajboi is broke af 1</h4>
+          <div class="col-sm-12 col-md-4">
+            <div class="card hog-card mt-4">
+              <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
+              <div class="card-body">
+                <h4 class="card-text">Ajboi is broke af 1</h4>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
 
-      <div class="col-sm-12 col-md-4">
-        <div class="card hog-card mt-4">
-          <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
-          <div class="card-body">
-            <h4 class="card-text">Ajboi is broke af 1</h4>
+          <div class="col-sm-12 col-md-4">
+            <div class="card hog-card mt-4">
+              <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
+              <div class="card-body">
+                <h4 class="card-text">Ajboi is broke af 1</h4>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
 
-      <div class="col-sm-12 col-md-4">
-        <div class="card hog-card mt-4">
-          <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
-          <div class="card-body">
-            <h4 class="card-text">Ajboi is broke af 1</h4>
+          <div class="col-sm-12 col-md-4">
+            <div class="card hog-card mt-4">
+              <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
+              <div class="card-body">
+                <h4 class="card-text">Ajboi is broke af 1</h4>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
 
-      <div class="col-sm-12 col-md-4">
-        <div class="card hog-card mt-4">
-          <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
-          <div class="card-body">
-            <h4 class="card-text">Ajboi is broke af 1</h4>
+          <div class="col-sm-12 col-md-4">
+            <div class="card hog-card mt-4">
+              <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
+              <div class="card-body">
+                <h4 class="card-text">Ajboi is broke af 1</h4>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
 
-      <div class="col-sm-12 col-md-4">
-        <div class="card hog-card mt-4">
-          <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
-          <div class="card-body">
-            <h4 class="card-text">Ajboi is broke af 1</h4>
+          <div class="col-sm-12 col-md-4">
+            <div class="card hog-card mt-4">
+              <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
+              <div class="card-body">
+                <h4 class="card-text">Ajboi is broke af 1</h4>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
 
-      <div class="col-sm-12 col-md-4">
-        <div class="card hog-card mt-4">
-          <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
-          <div class="card-body">
-            <h4 class="card-text">Ajboi is broke af 1</h4>
+          <div class="col-sm-12 col-md-4">
+            <div class="card hog-card mt-4">
+              <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
+              <div class="card-body">
+                <h4 class="card-text">Ajboi is broke af 1</h4>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
 
-      <div class="col-sm-12 col-md-4">
-        <div class="card hog-card mt-4">
-          <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
-          <div class="card-body">
-            <h4 class="card-text">Ajboi is broke af 1</h4>
+          <div class="col-sm-12 col-md-4">
+            <div class="card hog-card mt-4">
+              <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
+              <div class="card-body">
+                <h4 class="card-text">Ajboi is broke af 1</h4>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
 
-      <div class="col-sm-12 col-md-4">
-        <div class="card hog-card mt-4">
-          <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
-          <div class="card-body">
-            <h4 class="card-text">Ajboi is broke af 1</h4>
+          <div class="col-sm-12 col-md-4">
+            <div class="card hog-card mt-4">
+              <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
+              <div class="card-body">
+                <h4 class="card-text">Ajboi is broke af 1</h4>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
 
-      <div class="col-sm-12 col-md-4">
-        <div class="card hog-card mt-4">
-          <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
-          <div class="card-body">
-            <h4 class="card-text">Ajboi is broke af 1</h4>
+          <div class="col-sm-12 col-md-4">
+            <div class="card hog-card mt-4">
+              <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
+              <div class="card-body">
+                <h4 class="card-text">Ajboi is broke af 1</h4>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
 
-      <div class="col-sm-12 col-md-4">
-        <div class="card hog-card mt-4">
-          <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
-          <div class="card-body">
-            <h4 class="card-text">Ajboi is broke af 1</h4>
+          <div class="col-sm-12 col-md-4">
+            <div class="card hog-card mt-4">
+              <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
+              <div class="card-body">
+                <h4 class="card-text">Ajboi is broke af 1</h4>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
 
-      <div class="col-sm-12 col-md-4">
-        <div class="card hog-card mt-4">
-          <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
-          <div class="card-body">
-            <h4 class="card-text">Ajboi is broke af 1</h4>
+          <div class="col-sm-12 col-md-4">
+            <div class="card hog-card mt-4">
+              <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
+              <div class="card-body">
+                <h4 class="card-text">Ajboi is broke af 1</h4>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
 
-      <div class="col-sm-12 col-md-4">
-        <div class="card hog-card mt-4">
-          <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
-          <div class="card-body">
-            <h4 class="card-text">Ajboi is broke af 1</h4>
+          <div class="col-sm-12 col-md-4">
+            <div class="card hog-card mt-4">
+              <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
+              <div class="card-body">
+                <h4 class="card-text">Ajboi is broke af 1</h4>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
 
-      <div class="col-sm-12 col-md-4">
-        <div class="card hog-card mt-4">
-          <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
-          <div class="card-body">
-            <h4 class="card-text">Ajboi is broke af 1</h4>
+          <div class="col-sm-12 col-md-4">
+            <div class="card hog-card mt-4">
+              <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
+              <div class="card-body">
+                <h4 class="card-text">Ajboi is broke af 1</h4>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
 
-      <div class="col-sm-12 col-md-4">
-        <div class="card hog-card mt-4">
-          <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
-          <div class="card-body">
-            <h4 class="card-text">Ajboi is broke af 1</h4>
+          <div class="col-sm-12 col-md-4">
+            <div class="card hog-card mt-4">
+              <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
+              <div class="card-body">
+                <h4 class="card-text">Ajboi is broke af 1</h4>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
 
-      <div class="col-sm-12 col-md-4">
-        <div class="card hog-card mt-4">
-          <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
-          <div class="card-body">
-            <h4 class="card-text">Ajboi is broke af 1</h4>
+          <div class="col-sm-12 col-md-4">
+            <div class="card hog-card mt-4">
+              <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
+              <div class="card-body">
+                <h4 class="card-text">Ajboi is broke af 1</h4>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
 
-      <div class="col-sm-12 col-md-4">
-        <div class="card hog-card mt-4">
-          <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
-          <div class="card-body">
-            <h4 class="card-text">Ajboi is broke af 1</h4>
+          <div class="col-sm-12 col-md-4">
+            <div class="card hog-card mt-4">
+              <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
+              <div class="card-body">
+                <h4 class="card-text">Ajboi is broke af 1</h4>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
 
-      <div class="col-sm-12 col-md-4">
-        <div class="card hog-card mt-4">
-          <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
-          <div class="card-body">
-            <h4 class="card-text">Ajboi is broke af 1</h4>
+          <div class="col-sm-12 col-md-4">
+            <div class="card hog-card mt-4">
+              <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
+              <div class="card-body">
+                <h4 class="card-text">Ajboi is broke af 1</h4>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
 
-      <div class="col-sm-12 col-md-4">
-        <div class="card hog-card mt-4">
-          <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
-          <div class="card-body">
-            <h4 class="card-text">Ajboi is broke af 1</h4>
+          <div class="col-sm-12 col-md-4">
+            <div class="card hog-card mt-4">
+              <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
+              <div class="card-body">
+                <h4 class="card-text">Ajboi is broke af 1</h4>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
 
-      <div class="col-sm-12 col-md-4">
-        <div class="card hog-card mt-4">
-          <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
-          <div class="card-body">
-            <h4 class="card-text">Ajboi is broke af 1</h4>
+          <div class="col-sm-12 col-md-4">
+            <div class="card hog-card mt-4">
+              <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
+              <div class="card-body">
+                <h4 class="card-text">Ajboi is broke af 1</h4>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
 
-      <div class="col-sm-12 col-md-4">
-        <div class="card hog-card mt-4">
-          <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
-          <div class="card-body">
-            <h4 class="card-text">Ajboi is broke af 1</h4>
+          <div class="col-sm-12 col-md-4">
+            <div class="card hog-card mt-4">
+              <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
+              <div class="card-body">
+                <h4 class="card-text">Ajboi is broke af 1</h4>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
 
-      <div class="col-sm-12 col-md-4">
-        <div class="card hog-card mt-4">
-          <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
-          <div class="card-body">
-            <h4 class="card-text">Ajboi is broke af 1</h4>
+          <div class="col-sm-12 col-md-4">
+            <div class="card hog-card mt-4">
+              <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
+              <div class="card-body">
+                <h4 class="card-text">Ajboi is broke af 1</h4>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
 
-      <div class="col-sm-12 col-md-4">
-        <div class="card hog-card mt-4">
-          <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
-          <div class="card-body">
-            <h4 class="card-text">Ajboi is broke af 1</h4>
+          <div class="col-sm-12 col-md-4">
+            <div class="card hog-card mt-4">
+              <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
+              <div class="card-body">
+                <h4 class="card-text">Ajboi is broke af 1</h4>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
 
-      <div class="col-sm-12 col-md-4">
-        <div class="card hog-card mt-4">
-          <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
-          <div class="card-body">
-            <h4 class="card-text">Ajboi is broke af 1</h4>
+          <div class="col-sm-12 col-md-4">
+            <div class="card hog-card mt-4">
+              <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
+              <div class="card-body">
+                <h4 class="card-text">Ajboi is broke af 1</h4>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
 
-      <div class="col-sm-12 col-md-4">
-        <div class="card hog-card mt-4">
-          <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
-          <div class="card-body">
-            <h4 class="card-text">Ajboi is broke af 1</h4>
+          <div class="col-sm-12 col-md-4">
+            <div class="card hog-card mt-4">
+              <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
+              <div class="card-body">
+                <h4 class="card-text">Ajboi is broke af 1</h4>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
 
-      <div class="col-sm-12 col-md-4">
-        <div class="card hog-card mt-4">
-          <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
-          <div class="card-body">
-            <h4 class="card-text">Ajboi is broke af 1</h4>
+          <div class="col-sm-12 col-md-4">
+            <div class="card hog-card mt-4">
+              <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
+              <div class="card-body">
+                <h4 class="card-text">Ajboi is broke af 1</h4>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
 
-      <div class="col-sm-12 col-md-4">
-        <div class="card hog-card mt-4">
-          <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
-          <div class="card-body">
-            <h4 class="card-text">Ajboi is broke af 1</h4>
+          <div class="col-sm-12 col-md-4">
+            <div class="card hog-card mt-4">
+              <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
+              <div class="card-body">
+                <h4 class="card-text">Ajboi is broke af 1</h4>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
 
-      <div class="col-sm-12 col-md-4">
-        <div class="card hog-card mt-4">
-          <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
-          <div class="card-body">
-            <h4 class="card-text">Ajboi is broke af 1</h4>
+          <div class="col-sm-12 col-md-4">
+            <div class="card hog-card mt-4">
+              <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
+              <div class="card-body">
+                <h4 class="card-text">Ajboi is broke af 1</h4>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
 
-      <div class="col-sm-12  col-md-4">
-        <div class="card hog-card mt-4">
-          <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
-          <div class="card-body">
-            <h4 class="card-text">Ajboi is broke af 1</h4>
+          <div class="col-sm-12 col-md-4">
+            <div class="card hog-card mt-4">
+              <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
+              <div class="card-body">
+                <h4 class="card-text">Ajboi is broke af 1</h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-4">
+            <div class="card hog-card mt-4">
+              <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
+              <div class="card-body">
+                <h4 class="card-text">Ajboi is broke af 1</h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-4">
+            <div class="card hog-card mt-4">
+              <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
+              <div class="card-body">
+                <h4 class="card-text">Ajboi is broke af 1</h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-4">
+            <div class="card hog-card mt-4">
+              <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
+              <div class="card-body">
+                <h4 class="card-text">Ajboi is broke af 1</h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-4">
+            <div class="card hog-card mt-4">
+              <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
+              <div class="card-body">
+                <h4 class="card-text">Ajboi is broke af 1</h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12  col-md-4">
+            <div class="card hog-card mt-4">
+              <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
+              <div class="card-body">
+                <h4 class="card-text">Ajboi is broke af 1</h4>
+              </div>
+            </div>
           </div>
         </div>
+
+
+
+
+
+
+        <div>
+          <nav aria-label="Page navigation">
+            <ul class="pagination">
+              <li class="page-item">
+                <a class="page-link" id="previous-page" href="#" aria-label="Previous">
+                  Previous
+                </a>
+              </li>
+
+            </ul>
+          </nav>
+        </div>
+
+        <div class=" mt-2" id="paginationlabel">
+
+        </div>
+
       </div>
     </div>
-  </div>
+    <%@ include file="footer.jsp" %>
 
 
-
-
-
-  <div class="container mt-3">
-    <nav aria-label="Page navigation">
-      <ul class="pagination">
-        <li class="page-item">
-          <a class="page-link" id="previous-page" href="#" aria-label="Previous">
-            Previous
-          </a>
-        </li>
-
-      </ul>
-    </nav>
-  </div>
-
-  <div class="container mt-2" id="paginationlabel">
 
   </div>
-
-
-  <%@ include file="footer.jsp" %>
-
-
-
-
 
 
 
@@ -431,6 +435,16 @@
 
   <script src="https://code.jquery.com/jquery-3.5.1.min.js"
     integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+  <script src="assets/js/navigation.js"></script>
+  <script>
+    $(".nav").each(function () {
+
+      new ResponsiveNav($(".nav"), 600);
+
+    });
+  </script>
+  
 
   <script>
     $(document).ready(function () {
@@ -456,7 +470,7 @@
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
     integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
   </script>
-  
+
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
     integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
   </script>
