@@ -1,4 +1,4 @@
-<div class="nav">
+<div class="nav sticky-top mb-2">
 
   <!-- Mobile Toggle Control -->
   <div class="navControl">
@@ -40,3 +40,4 @@
   </ul>
 
 </div>
+<br>

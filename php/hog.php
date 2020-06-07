@@ -9,18 +9,16 @@
   <meta name="Description"
     content="The official Student media body of Government College of Technology, Coimbatore. We cover news apropos of the campus. We also publish the official student newsletter of the campus, Aperture.">
 
-  <link rel="stylesheet" type="text/css"
-    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.min.css">
-  <link rel="stylesheet" type="text/css"
-    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick-theme.min.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
     integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-  <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
-
   <link rel="stylesheet" href="assets/css/style.css">
+
   <link rel="stylesheet" href="assets/css/navigation.css">
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@700&family=PT+Sans:ital@0;1&display=swap');
+  </style>
   <link rel="icon" href="assets/images/icon.png">
 
 
@@ -30,325 +28,327 @@
 <body>
 
   <?php include 'header.php';?>
-  <div class="container px-0 bg-white">
+  <div class="container bg-white px-0">
     <?php include 'navbar.php';?>
 
     <div class="container">
 
-      <div class="container-title">
-        Humans of GCT
+      <div class="container-title mt-2 mb-2">
+        <h2>
+          Humans of GCT
+        </h2>
       </div>
 
 
 
 
       <div id="hogpagination">
-        <div class="row">
+        <div class="row mb-2">
 
 
           <div class="col-sm-12 col-md-4">
-            <div class="card hog-card mt-4">
-              <img class=" img-fluid" src="assets/images/test_featured.jpg">
+            <div class=" card">
+              <img class="img-fluid" src="assets/images/test_featured.jpg">
 
               <div class="card-body">
                 <a href=#>
-                  <h4 class="card-title">069-My coming out story</h4>
+                  <h3 class="card-title">069-My coming out story</h3>
                 </a>
-                <h5>Amuthan M</h4>
+                <h4 class="name">Amuthan M</h4>
                   <p>EIE, 2016-2020</p>
               </div>
             </div>
           </div>
 
           <div class="col-sm-12 col-md-4">
-            <div class="card hog-card mt-4">
-              <img class=" img-fluid" src="assets/images/test_featured.jpg">
+            <div class=" card ">
+              <img class="img-fluid" src="assets/images/test_featured.jpg">
 
               <div class="card-body">
                 <a href=#>
-                  <h4 class="card-title">069-My coming out story</h4>
+                  <h3 class="card-title">069-My coming out story</h3>
                 </a>
-                <h5>Amuthan M</h4>
+                <h4 class="name">Amuthan M</h4>
                   <p>EIE, 2016-2020</p>
               </div>
             </div>
           </div>
 
           <div class="col-sm-12 col-md-4">
-            <div class="card hog-card mt-4">
-              <img class=" img-fluid" src="assets/images/test_featured.jpg">
+            <div class=" card ">
+              <img class="img-fluid" src="assets/images/test_featured.jpg">
 
               <div class="card-body">
                 <a href=#>
-                  <h4 class="card-title">069-My coming out story</h4>
+                  <h3 class="card-title">069-My coming out story</h3>
                 </a>
-                <h5>Amuthan M</h4>
+                <h4 class="name">Amuthan M</h4>
                   <p>EIE, 2016-2020</p>
               </div>
             </div>
           </div>
 
           <div class="col-sm-12 col-md-4">
-            <div class="card hog-card mt-4">
-              <img class=" img-fluid" src="assets/images/test_featured.jpg">
+            <div class=" card ">
+              <img class="img-fluid" src="assets/images/test_featured.jpg">
 
               <div class="card-body">
                 <a href=#>
-                  <h4 class="card-title">069-My coming out story</h4>
+                  <h3 class="card-title">069-My coming out story</h3>
                 </a>
-                <h5>Amuthan M</h4>
+                <h4 class="name">Amuthan M</h4>
                   <p>EIE, 2016-2020</p>
               </div>
             </div>
           </div>
 
           <div class="col-sm-12 col-md-4">
-            <div class="card hog-card mt-4">
-              <img class=" img-fluid" src="assets/images/test_featured.jpg">
+            <div class=" card ">
+              <img class="img-fluid" src="assets/images/test_featured.jpg">
 
               <div class="card-body">
                 <a href=#>
-                  <h4 class="card-title">069-My coming out story</h4>
+                  <h3 class="card-title">069-My coming out story</h3>
                 </a>
-                <h5>Amuthan M</h4>
+                <h4 class="name">Amuthan M</h4>
                   <p>EIE, 2016-2020</p>
               </div>
             </div>
           </div>
 
           <div class="col-sm-12 col-md-4">
-            <div class="card hog-card mt-4">
-              <img class=" img-fluid" src="assets/images/test_featured.jpg">
+            <div class="card">
+              <img class="img-fluid" src="assets/images/test_featured.jpg">
 
               <div class="card-body">
                 <a href=#>
-                  <h4 class="card-title">069-My coming out story</h4>
+                  <h3 class="card-title">069-My coming out story</h3>
                 </a>
-                <h5>Amuthan M</h4>
+                <h4 class="name">Amuthan M</h4>
                   <p>EIE, 2016-2020</p>
               </div>
             </div>
           </div>
 
           <div class="col-sm-12 col-md-4">
-            <div class="card hog-card mt-4">
-              <img class=" img-fluid" src="assets/images/test_featured.jpg">
+            <div class=" card ">
+              <img class="img-fluid" src="assets/images/test_featured.jpg">
 
               <div class="card-body">
                 <a href=#>
-                  <h4 class="card-title">069-My coming out story</h4>
+                  <h3 class="card-title">069-My coming out story</h3>
                 </a>
-                <h5>Amuthan M</h4>
+                <h4 class="name">Amuthan M</h4>
                   <p>EIE, 2016-2020</p>
               </div>
             </div>
           </div>
 
           <div class="col-sm-12 col-md-4">
-            <div class="card hog-card mt-4">
-              <img class=" img-fluid" src="assets/images/test_featured.jpg">
+            <div class=" card ">
+              <img class="img-fluid" src="assets/images/test_featured.jpg">
 
               <div class="card-body">
                 <a href=#>
-                  <h4 class="card-title">069-My coming out story</h4>
+                  <h3 class="card-title">069-My coming out story</h3>
                 </a>
-                <h5>Amuthan M</h4>
+                <h4 class="name">Amuthan M</h4>
                   <p>EIE, 2016-2020</p>
               </div>
             </div>
           </div>
 
           <div class="col-sm-12 col-md-4">
-            <div class="card hog-card mt-4">
-              <img class=" img-fluid" src="assets/images/test_featured.jpg">
+            <div class=" card ">
+              <img class="img-fluid" src="assets/images/test_featured.jpg">
 
               <div class="card-body">
                 <a href=#>
-                  <h4 class="card-title">069-My coming out story</h4>
+                  <h3 class="card-title">069-My coming out story</h3>
                 </a>
-                <h5>Amuthan M</h4>
+                <h4 class="name">Amuthan M</h4>
                   <p>EIE, 2016-2020</p>
               </div>
             </div>
           </div>
 
           <div class="col-sm-12 col-md-4">
-            <div class="card hog-card mt-4">
-              <img class=" img-fluid" src="assets/images/test_featured.jpg">
+            <div class=" card ">
+              <img class="img-fluid" src="assets/images/test_featured.jpg">
 
               <div class="card-body">
                 <a href=#>
-                  <h4 class="card-title">069-My coming out story</h4>
+                  <h3 class="card-title">069-My coming out story</h3>
                 </a>
-                <h5>Amuthan M</h4>
+                <h4 class="name">Amuthan M</h4>
                   <p>EIE, 2016-2020</p>
               </div>
             </div>
           </div>
 
           <div class="col-sm-12 col-md-4">
-            <div class="card hog-card mt-4">
-              <img class=" img-fluid" src="assets/images/test_featured.jpg">
+            <div class=" card ">
+              <img class="img-fluid" src="assets/images/test_featured.jpg">
 
               <div class="card-body">
                 <a href=#>
-                  <h4 class="card-title">069-My coming out story</h4>
+                  <h3 class="card-title">069-My coming out story</h3>
                 </a>
-                <h5>Amuthan M</h4>
+                <h4 class="name">Amuthan M</h4>
                   <p>EIE, 2016-2020</p>
               </div>
             </div>
           </div>
 
           <div class="col-sm-12 col-md-4">
-            <div class="card hog-card mt-4">
-              <img class=" img-fluid" src="assets/images/test_featured.jpg">
+            <div class=" card ">
+              <img class="img-fluid" src="assets/images/test_featured.jpg">
 
               <div class="card-body">
                 <a href=#>
-                  <h4 class="card-title">069-My coming out story</h4>
+                  <h3 class="card-title">069-My coming out story</h3>
                 </a>
-                <h5>Amuthan M</h4>
+                <h4 class="name">Amuthan M</h4>
                   <p>EIE, 2016-2020</p>
               </div>
             </div>
           </div>
 
           <div class="col-sm-12 col-md-4">
-            <div class="card hog-card mt-4">
-              <img class=" img-fluid" src="assets/images/test_featured.jpg">
+            <div class=" card ">
+              <img class="img-fluid" src="assets/images/test_featured.jpg">
 
               <div class="card-body">
                 <a href=#>
-                  <h4 class="card-title">069-My coming out story</h4>
+                  <h3 class="card-title">069-My coming out story</h3>
                 </a>
-                <h5>Amuthan M</h4>
+                <h4 class="name">Amuthan M</h4>
                   <p>EIE, 2016-2020</p>
               </div>
             </div>
           </div>
 
           <div class="col-sm-12 col-md-4">
-            <div class="card hog-card mt-4">
-              <img class=" img-fluid" src="assets/images/test_featured.jpg">
+            <div class=" card ">
+              <img class="img-fluid" src="assets/images/test_featured.jpg">
 
               <div class="card-body">
                 <a href=#>
-                  <h4 class="card-title">069-My coming out story</h4>
+                  <h3 class="card-title">069-My coming out story</h3>
                 </a>
-                <h5>Amuthan M</h4>
+                <h4 class="name">Amuthan M</h4>
                   <p>EIE, 2016-2020</p>
               </div>
             </div>
           </div>
 
           <div class="col-sm-12 col-md-4">
-            <div class="card hog-card mt-4">
-              <img class=" img-fluid" src="assets/images/test_featured.jpg">
+            <div class=" card ">
+              <img class="img-fluid" src="assets/images/test_featured.jpg">
 
               <div class="card-body">
                 <a href=#>
-                  <h4 class="card-title">069-My coming out story</h4>
+                  <h3 class="card-title">069-My coming out story</h3>
                 </a>
-                <h5>Amuthan M</h4>
+                <h4 class="name">Amuthan M</h4>
                   <p>EIE, 2016-2020</p>
               </div>
             </div>
           </div>
 
           <div class="col-sm-12 col-md-4">
-            <div class="card hog-card mt-4">
-              <img class=" img-fluid" src="assets/images/test_featured.jpg">
+            <div class=" card ">
+              <img class="img-fluid" src="assets/images/test_featured.jpg">
 
               <div class="card-body">
                 <a href=#>
-                  <h4 class="card-title">069-My coming out story</h4>
+                  <h3 class="card-title">069-My coming out story</h3>
                 </a>
-                <h5>Amuthan M</h4>
+                <h4 class="name">Amuthan M</h4>
                   <p>EIE, 2016-2020</p>
               </div>
             </div>
           </div>
 
           <div class="col-sm-12 col-md-4">
-            <div class="card hog-card mt-4">
-              <img class=" img-fluid" src="assets/images/test_featured.jpg">
+            <div class=" card ">
+              <img class="img-fluid" src="assets/images/test_featured.jpg">
 
               <div class="card-body">
                 <a href=#>
-                  <h4 class="card-title">069-My coming out story</h4>
+                  <h3 class="card-title">069-My coming out story</h3>
                 </a>
-                <h5>Amuthan M</h4>
+                <h4 class="name">Amuthan M</h4>
                   <p>EIE, 2016-2020</p>
               </div>
             </div>
           </div>
 
           <div class="col-sm-12 col-md-4">
-            <div class="card hog-card mt-4">
-              <img class=" img-fluid" src="assets/images/test_featured.jpg">
+            <div class=" card ">
+              <img class="img-fluid" src="assets/images/test_featured.jpg">
 
               <div class="card-body">
                 <a href=#>
-                  <h4 class="card-title">069-My coming out story</h4>
+                  <h3 class="card-title">069-My coming out story</h3>
                 </a>
-                <h5>Amuthan M</h4>
+                <h4 class="name">Amuthan M</h4>
                   <p>EIE, 2016-2020</p>
               </div>
             </div>
           </div>
 
           <div class="col-sm-12 col-md-4">
-            <div class="card hog-card mt-4">
-              <img class=" img-fluid" src="assets/images/test_featured.jpg">
+            <div class=" card ">
+              <img class="img-fluid" src="assets/images/test_featured.jpg">
 
               <div class="card-body">
                 <a href=#>
-                  <h4 class="card-title">069-My coming out story</h4>
+                  <h3 class="card-title">069-My coming out story</h3>
                 </a>
-                <h5>Amuthan M</h4>
+                <h4 class="name">Amuthan M</h4>
                   <p>EIE, 2016-2020</p>
               </div>
             </div>
           </div>
 
           <div class="col-sm-12 col-md-4">
-            <div class="card hog-card mt-4">
-              <img class=" img-fluid" src="assets/images/test_featured.jpg">
+            <div class=" card ">
+              <img class="img-fluid" src="assets/images/test_featured.jpg">
 
               <div class="card-body">
                 <a href=#>
-                  <h4 class="card-title">069-My coming out story</h4>
+                  <h3 class="card-title">069-My coming out story</h3>
                 </a>
-                <h5>Amuthan M</h4>
+                <h4 class="name">Amuthan M</h4>
                   <p>EIE, 2016-2020</p>
               </div>
             </div>
           </div>
 
           <div class="col-sm-12 col-md-4">
-            <div class="card hog-card mt-4">
-              <img class=" img-fluid" src="assets/images/test_featured.jpg">
+            <div class=" card ">
+              <img class="img-fluid" src="assets/images/test_featured.jpg">
 
               <div class="card-body">
                 <a href=#>
-                  <h4 class="card-title">069-My coming out story</h4>
+                  <h3 class="card-title">069-My coming out story</h3>
                 </a>
-                <h5>Amuthan M</h4>
+                <h4 class="name">Amuthan M</h4>
                   <p>EIE, 2016-2020</p>
               </div>
             </div>
           </div>
 
           <div class="col-sm-12 col-md-4">
-            <div class="card hog-card mt-4">
-              <img class=" img-fluid" src="assets/images/test_featured.jpg">
+            <div class=" card ">
+              <img class="img-fluid" src="assets/images/test_featured.jpg">
 
               <div class="card-body">
                 <a href=#>
-                  <h4 class="card-title">069-My coming out story</h4>
+                  <h3 class="card-title">069-My coming out story</h3>
                 </a>
-                <h5>Amuthan M</h4>
+                <h4 class="name">Amuthan M</h4>
                   <p>EIE, 2016-2020</p>
               </div>
             </div>
@@ -361,7 +361,7 @@
 
 
 
-        <div>
+        <div class="mb-2">
           <nav aria-label="Page navigation">
             <ul class="pagination">
               <li class="page-item">
@@ -404,25 +404,6 @@
     });
   </script>
 
-
-  <!--<script>
-    $(document).ready(function () {
-      $('.col-md-4').hover(
-        //trigger when mouse hover
-        function () {
-          $(this).animate({
-            marginTop: "-=.5%",
-          }, 200);
-        },
-        //trigger when mouse out
-        function () {
-          $(this).animate({
-            marginTop: "0%"
-          }, 200);
-        }
-      )
-    });
-  </script>-->
 
   <script src="assets/js/hogpagination.js"></script>
 

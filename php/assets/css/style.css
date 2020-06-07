@@ -1,4 +1,14 @@
+/*Font families used in the site..........
+
+font-family: 'PT Sans', sans-serif;
+font-family: 'PT Sans Narrow', sans-serif;
+
+.................................................*/
+
+
+
 /**Common for all pages*/
+
 
 
 html,
@@ -90,6 +100,7 @@ video {
 body {
   background-image: url("../images/beige-paper.png");
   background-color: #FFC8C8;
+  font-family: 'PT Sans', sans-serif;
   /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 
@@ -98,6 +109,7 @@ body {
 header .container {
   height: auto;
 }
+
 
 /*index.html*/
 
@@ -125,63 +137,10 @@ header .container {
   }
 }
 
-
-
-
-/*#recent-updates .row:last-of-type .article-col:first-of-type .article {
-    overflow: hidden;
-    border-radius: 0px 0px 0px 10px;
-  }*/
-
-/*#recent-updates .row .article {
-  overflow: hidden;
-  border-radius: 0px 0px 0px 10px;
+.container-title{
+  font-family: 'PT Sans Narrow', sans-serif;
+  text-decoration: underline;
 }
-
-#recent-updates .article {
-  position: relative;
-  height: 340px;
-  margin-top: 10px;
-  box-shadow: 0 0 30px 0px rgba(0, 0, 0, 0.4);
-}
-
-.img-container {
-  height: 100%;
-  overflow: hidden;
-}
-
-.tinted {
-  background: black;
-}
-
-.center-fill-container {
-  position: relative;
-  margin: 0 auto;
-  overflow: hidden;
-}
-
-.img-center-fill.wide {
-  height: 100%;
-  width: auto;
-}
-
-.tinted img {
-  opacity: 0.6;
-}
-
-.img-center-fill {
-  position: absolute;
-  width: 100%;
-}
-
-.center-both {
-  position: absolute;
-  -ms-transform: translate(-50%, 50%);
-  -webkit-transform: translate(-50%, 50%);
-  transform: translate(-50%, 50%);
-  left: 50%;
-  bottom: 50%;
-}*/
 
 /**Humans of GCT Card and Campus News Slider in HomePage**/
 .owl-theme .owl-dots .owl-dot.active span,
@@ -332,6 +291,15 @@ header .container {
 }
 
 
+
+/*Campusnews.php page*/
+
+.card-title{
+  font-family: 'PT Sans Narrow', sans-serif; /*Applicable to hog.php <h2> element too*/
+}
+
+
+
 /*Humans of GCT page hog.html*/
 
 /*#hogpagination .row .col-md-4 .hog-card:hover {
@@ -341,7 +309,7 @@ header .container {
 }*/
 
 
-.hog-card {
+#hogpagination .card{
 	display: inline-block;
 	width: 100%;
 	max-width: 20rem;
@@ -352,6 +320,10 @@ header .container {
 	box-shadow: 0 0 3rem -1rem rgba(0,0,0,0.5);
   transition: transform 0.1s ease-in-out, box-shadow 0.1s;
   border-radius: 0%;
+}
+
+#hogpagination .card .name{
+  font-family: "PT Sans Narrow", sans-serif;
 }
 
 
@@ -383,6 +355,20 @@ header .container {
   border: none;
 }
 
+/*Aperture Page*/
+.newsletters .aperture-card{
+  border: none;
+  margin-bottom: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.aperture-card .btn-block{
+  background-color: #FF9999;
+  
+}
+
+
 
 /* Team */
 
@@ -390,7 +376,42 @@ header .container {
 
 /*Footer*/
 
-footer {
-  background-color: #444F5A;
-  color: #FAEFEE;
+footer{
+  background: #FF9999;
+    min-height: 320px;
+    padding: 5% 5% 100px;
+    position: relative;
+}
+
+footer small{
+  position: absolute;
+  bottom: 30px;
+}
+
+footer p a{
+  display: inline-block;
+  margin-top: 8px;
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: #000000;
+}
+
+footer p a.contact-link {
+  border-bottom: 1px dotted rgba(0, 0, 0, 0.1);
+}
+
+footer p a.contact-link:hover {
+  color: inherit;
+  border-bottom: 1px solid rgba(0,0,0,.2);
+  text-decoration:none; 
+  transition: 0.1s;
+}
+
+footer .social-icon-list{
+  text-align:right;
+}
+footer .social-icon{
+  color: #000000;
+  widows: 150%;
+  height:150%;
 }

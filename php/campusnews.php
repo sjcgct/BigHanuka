@@ -9,19 +9,16 @@
   <meta name="Description"
     content="The official Student media body of Government College of Technology, Coimbatore. We cover news apropos of the campus. We also publish the official student newsletter of the campus, Aperture.">
 
-  <link rel="stylesheet" type="text/css"
-    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.min.css">
-  <link rel="stylesheet" type="text/css"
-    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick-theme.min.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
     integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-  <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
 
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/navigation.css">
 
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@700&family=PT+Sans:ital@0;1&display=swap');
+  </style>
   <link rel="icon" href="assets/images/icon.png">
 
 
@@ -38,19 +35,21 @@
     <div class="container">
 
 
-      <div class="container-title">Campus News</div>
-
+      <div class="container-title mt-2 mb-2"><h2>Campus News</h2></div>
+      
+         
 
 
 
 
       <div id="campusnewspagination">
         <div class="row card-decks">
+
           <div class="col-sm-12 col-md-6">
             <div class="card news">
               <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
               <div class="card-body">
-                <h5 class="card-title mt-3">TEQIP III Workshop organised by Mechanical Department</h5>
+                <a href="#"><h3 class="card-title">TEQIP III Workshop organised by Mechanical Department</h3></a>
                 <p class="text-muted report-details">May 24, 2020 | Amuthan M, Ajai Kannan K</p>
                 <p class="card-text text-justify mt-1">
                   The Department of Mechanical Engineering organised a 2-day workshop on 20/12/2020. Lorem
@@ -67,7 +66,7 @@
             <div class="card news">
               <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
               <div class="card-body">
-                <h5 class="card-title mt-3">TEQIP III Workshop organised by Mechanical Department</h5>
+                <a href="#"><h3 class="card-title">TEQIP III Workshop organised by Mechanical Department</h3></a>
                 <p class="text-muted report-details">May 24, 2020 | Amuthan M, Ajai Kannan K</p>
                 <p class="card-text text-justify mt-1">
                   The Department of Mechanical Engineering organised a 2-day workshop on 20/12/2020. Lorem
@@ -84,7 +83,7 @@
             <div class="card news">
               <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
               <div class="card-body">
-                <h5 class="card-title mt-3">TEQIP III Workshop organised by Mechanical Department</h5>
+                <a href="#"><h3 class="card-title">TEQIP III Workshop organised by Mechanical Department</h3></a>
                 <p class="text-muted report-details">May 24, 2020 | Amuthan M, Ajai Kannan K</p>
                 <p class="card-text text-justify mt-1">
                   The Department of Mechanical Engineering organised a 2-day workshop on 20/12/2020. Lorem
@@ -101,7 +100,7 @@
             <div class="card news">
               <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
               <div class="card-body">
-                <h5 class="card-title mt-3">TEQIP III Workshop organised by Mechanical Department</h5>
+                <a href="#"><h3 class="card-title">TEQIP III Workshop organised by Mechanical Department</h3></a>
                 <p class="text-muted report-details">May 24, 2020 | Amuthan M, Ajai Kannan K</p>
                 <p class="card-text text-justify mt-1">
                   The Department of Mechanical Engineering organised a 2-day workshop on 20/12/2020. Lorem
@@ -118,7 +117,7 @@
             <div class="card news">
               <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
               <div class="card-body">
-                <h5 class="card-title mt-3">TEQIP III Workshop organised by Mechanical Department</h5>
+                <a href="#"><h3 class="card-title">TEQIP III Workshop organised by Mechanical Department</h3></a>
                 <p class="text-muted report-details">May 24, 2020 | Amuthan M, Ajai Kannan K</p>
                 <p class="card-text text-justify mt-1">
                   The Department of Mechanical Engineering organised a 2-day workshop on 20/12/2020. Lorem
@@ -135,7 +134,7 @@
             <div class="card news">
               <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
               <div class="card-body">
-                <h5 class="card-title mt-3">TEQIP III Workshop organised by Mechanical Department</h5>
+                <a href="#"><h3 class="card-title">TEQIP III Workshop organised by Mechanical Department</h3></a>
                 <p class="text-muted report-details">May 24, 2020 | Amuthan M, Ajai Kannan K</p>
                 <p class="card-text text-justify mt-1">
                   The Department of Mechanical Engineering organised a 2-day workshop on 20/12/2020. Lorem
@@ -152,7 +151,7 @@
             <div class="card news">
               <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
               <div class="card-body">
-                <h5 class="card-title mt-3">TEQIP III Workshop organised by Mechanical Department</h5>
+                <a href="#"><h3 class="card-title">TEQIP III Workshop organised by Mechanical Department</h3></a>
                 <p class="text-muted report-details">May 24, 2020 | Amuthan M, Ajai Kannan K</p>
                 <p class="card-text text-justify mt-1">
                   The Department of Mechanical Engineering organised a 2-day workshop on 20/12/2020. Lorem
@@ -169,7 +168,7 @@
             <div class="card news">
               <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
               <div class="card-body">
-                <h5 class="card-title mt-3">TEQIP III Workshop organised by Mechanical Department</h5>
+                <a href="#"><h3 class="card-title">TEQIP III Workshop organised by Mechanical Department</h3></a>
                 <p class="text-muted report-details">May 24, 2020 | Amuthan M, Ajai Kannan K</p>
                 <p class="card-text text-justify mt-1">
                   The Department of Mechanical Engineering organised a 2-day workshop on 20/12/2020. Lorem
@@ -186,7 +185,7 @@
             <div class="card news">
               <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
               <div class="card-body">
-                <h5 class="card-title mt-3">TEQIP III Workshop organised by Mechanical Department</h5>
+                <a href="#"><h3 class="card-title">TEQIP III Workshop organised by Mechanical Department</h3></a>
                 <p class="text-muted report-details">May 24, 2020 | Amuthan M, Ajai Kannan K</p>
                 <p class="card-text text-justify mt-1">
                   The Department of Mechanical Engineering organised a 2-day workshop on 20/12/2020. Lorem
@@ -203,7 +202,7 @@
             <div class="card news">
               <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
               <div class="card-body">
-                <h5 class="card-title mt-3">TEQIP III Workshop organised by Mechanical Department</h5>
+                <a href="#"><h3 class="card-title">TEQIP III Workshop organised by Mechanical Department</h3></a>
                 <p class="text-muted report-details">May 24, 2020 | Amuthan M, Ajai Kannan K</p>
                 <p class="card-text text-justify mt-1">
                   The Department of Mechanical Engineering organised a 2-day workshop on 20/12/2020. Lorem
@@ -220,7 +219,7 @@
             <div class="card news">
               <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
               <div class="card-body">
-                <h5 class="card-title mt-3">TEQIP III Workshop organised by Mechanical Department</h5>
+                <a href="#"><h3 class="card-title">TEQIP III Workshop organised by Mechanical Department</h3></a>
                 <p class="text-muted report-details">May 24, 2020 | Amuthan M, Ajai Kannan K</p>
                 <p class="card-text text-justify mt-1">
                   The Department of Mechanical Engineering organised a 2-day workshop on 20/12/2020. Lorem
@@ -237,7 +236,7 @@
             <div class="card news">
               <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
               <div class="card-body">
-                <h5 class="card-title mt-3">TEQIP III Workshop organised by Mechanical Department</h5>
+                <a href="#"><h3 class="card-title">TEQIP III Workshop organised by Mechanical Department</h3></a>
                 <p class="text-muted report-details">May 24, 2020 | Amuthan M, Ajai Kannan K</p>
                 <p class="card-text text-justify mt-1">
                   The Department of Mechanical Engineering organised a 2-day workshop on 20/12/2020. Lorem
@@ -254,7 +253,7 @@
             <div class="card news">
               <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
               <div class="card-body">
-                <h5 class="card-title mt-3">TEQIP III Workshop organised by Mechanical Department</h5>
+                <a href="#"><h3 class="card-title">TEQIP III Workshop organised by Mechanical Department</h3></a>
                 <p class="text-muted report-details">May 24, 2020 | Amuthan M, Ajai Kannan K</p>
                 <p class="card-text text-justify mt-1">
                   The Department of Mechanical Engineering organised a 2-day workshop on 20/12/2020. Lorem
@@ -271,7 +270,7 @@
             <div class="card news">
               <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
               <div class="card-body">
-                <h5 class="card-title mt-3">TEQIP III Workshop organised by Mechanical Department</h5>
+                <a href="#"><h3 class="card-title">TEQIP III Workshop organised by Mechanical Department</h3></a>
                 <p class="text-muted report-details">May 24, 2020 | Amuthan M, Ajai Kannan K</p>
                 <p class="card-text text-justify mt-1">
                   The Department of Mechanical Engineering organised a 2-day workshop on 20/12/2020. Lorem
@@ -283,109 +282,6 @@
               </div>
             </div>
           </div>
-
-          <div class="col-sm-12 col-md-6">
-            <div class="card news">
-              <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
-              <div class="card-body">
-                <h5 class="card-title mt-3">TEQIP III Workshop organised by Mechanical Department</h5>
-                <p class="text-muted report-details">May 24, 2020 | Amuthan M, Ajai Kannan K</p>
-                <p class="card-text text-justify mt-1">
-                  The Department of Mechanical Engineering organised a 2-day workshop on 20/12/2020. Lorem
-                  ipsum dolor sit amet consectetur adipisicing elit. Quo tempore aliquam consequatur aut qui
-                  error, non, iusto placeat consectetur nihil dolores velit. Officiis sunt quis, vel numquam suscipit
-                  rerum
-                  praesentium.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-sm-12 col-md-6">
-            <div class="card news">
-              <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
-              <div class="card-body">
-                <h5 class="card-title mt-3">TEQIP III Workshop organised by Mechanical Department</h5>
-                <p class="text-muted report-details">May 24, 2020 | Amuthan M, Ajai Kannan K</p>
-                <p class="card-text text-justify mt-1">
-                  The Department of Mechanical Engineering organised a 2-day workshop on 20/12/2020. Lorem
-                  ipsum dolor sit amet consectetur adipisicing elit. Quo tempore aliquam consequatur aut qui
-                  error, non, iusto placeat consectetur nihil dolores velit. Officiis sunt quis, vel numquam suscipit
-                  rerum
-                  praesentium.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-sm-12 col-md-6">
-            <div class="card news">
-              <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
-              <div class="card-body">
-                <h5 class="card-title mt-3">TEQIP III Workshop organised by Mechanical Department</h5>
-                <p class="text-muted report-details">May 24, 2020 | Amuthan M, Ajai Kannan K</p>
-                <p class="card-text text-justify mt-1">
-                  The Department of Mechanical Engineering organised a 2-day workshop on 20/12/2020. Lorem
-                  ipsum dolor sit amet consectetur adipisicing elit. Quo tempore aliquam consequatur aut qui
-                  error, non, iusto placeat consectetur nihil dolores velit. Officiis sunt quis, vel numquam suscipit
-                  rerum
-                  praesentium.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-sm-12 col-md-6">
-            <div class="card news">
-              <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
-              <div class="card-body">
-                <h5 class="card-title mt-3">TEQIP III Workshop organised by Mechanical Department</h5>
-                <p class="text-muted report-details">May 24, 2020 | Amuthan M, Ajai Kannan K</p>
-                <p class="card-text text-justify mt-1">
-                  The Department of Mechanical Engineering organised a 2-day workshop on 20/12/2020. Lorem
-                  ipsum dolor sit amet consectetur adipisicing elit. Quo tempore aliquam consequatur aut qui
-                  error, non, iusto placeat consectetur nihil dolores velit. Officiis sunt quis, vel numquam suscipit
-                  rerum
-                  praesentium.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-sm-12 col-md-6">
-            <div class="card news">
-              <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
-              <div class="card-body">
-                <h5 class="card-title mt-3">TEQIP III Workshop organised by Mechanical Department</h5>
-                <p class="text-muted report-details">May 24, 2020 | Amuthan M, Ajai Kannan K</p>
-                <p class="card-text text-justify mt-1">
-                  The Department of Mechanical Engineering organised a 2-day workshop on 20/12/2020. Lorem
-                  ipsum dolor sit amet consectetur adipisicing elit. Quo tempore aliquam consequatur aut qui
-                  error, non, iusto placeat consectetur nihil dolores velit. Officiis sunt quis, vel numquam suscipit
-                  rerum
-                  praesentium.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-sm-12 col-md-6">
-            <div class="card news">
-              <img class="card-img img-fluid" src="assets/images/test_featured.jpg">
-              <div class="card-body">
-                <h5 class="card-title mt-3">TEQIP III Workshop organised by Mechanical Department</h5>
-                <p class="text-muted report-details">May 24, 2020 | Amuthan M, Ajai Kannan K</p>
-                <p class="card-text text-justify mt-1">
-                  The Department of Mechanical Engineering organised a 2-day workshop on 20/12/2020. Lorem
-                  ipsum dolor sit amet consectetur adipisicing elit. Quo tempore aliquam consequatur aut qui
-                  error, non, iusto placeat consectetur nihil dolores velit. Officiis sunt quis, vel numquam suscipit
-                  rerum
-                  praesentium.
-                </p>
-              </div>
-            </div>
-          </div>
-
 
         </div>
       </div>
@@ -436,6 +332,7 @@
 
   
   <script src="assets/js/campusnewspagination.js"></script>
+  
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
     integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
   </script>
